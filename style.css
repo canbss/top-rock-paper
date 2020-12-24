@@ -29,6 +29,7 @@ html{
     font-size: 1.8rem;
     transition: color 0.2s;
     transition: border-color 0.15s;
+    outline: none;
 }
 
 .selection:hover{
