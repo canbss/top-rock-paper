@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    
+    <div id="title">
+        <p>Rock-Paper-Scissors</p>
+    </div>
+    <div id="results">
+        <p>Your score : 0</p>
+        <p>0 : Computer score</p>
+    </div>
+    <div id="inform">
+        <p></p>
+    </div>
+    <div class="container-buttons">
+        <button class="selection" data-value="rock">Rock</button>
+        <button class="selection" data-value="paper">Paper</button>
+        <button class="selection" data-value="scissors">Scissors</button>
+    </div>
+    <!--<div id="inform">
+        <p></p>
+    </div>-->
+    <div id="after-game">
+        <p></p>
+        <p>Again ?</p>
+        <div id="after-game-buttons">
+            <button class="after-game-selection" data-value="yes">Yes</button>
+            <button class="after-game-selection" data-value="no">No</button>
+        </div>
+    </div>
 </body>
 <script src="app.js"></script>
 </html>
